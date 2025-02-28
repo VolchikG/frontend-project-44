@@ -17,5 +17,8 @@
   "homepage": "https://github.com/VolchikG/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0"
   }
 }
