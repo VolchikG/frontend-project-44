@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
-import greeting from './cli.js';
+import StartBG from './cli.js';
 
-const gameBody = (description, taskFunc) => {
-  const playerName = greeting();
+const BodyBrainGames = (description, taskFunc) => {
+  const playerName = StartBG();
   console.log(description);
   let mark = 0;
   for (let i = 1; i <= 3; i += 1) {
@@ -25,4 +25,4 @@ const gameBody = (description, taskFunc) => {
   }
 };
 
-export default gameBody;
+export default BodyBrainGames;

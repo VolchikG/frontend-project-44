@@ -1,4 +1,4 @@
-const task = () => {
+const BrainEven = () => {
   const q = Math.round(Math.random() * 100);
   let a = '';
   if (q % 2 === 0) {
@@ -9,4 +9,4 @@ const task = () => {
 
   return [q, a];
 };
-export default task;
+export default BrainEven;
