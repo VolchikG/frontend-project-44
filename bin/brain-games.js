@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import StartBG from '../src/cli.js';
+import StartBG from '../src/cli.js'
 
-StartBG();
+StartBG()
