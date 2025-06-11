@@ -4,7 +4,7 @@ const BrainEven = () => {
 
   if (q % 2 === 0) {
     a = 'yes'
-  } 
+  }
   else {
     a = 'no'
   }
