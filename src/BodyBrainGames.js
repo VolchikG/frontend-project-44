@@ -15,7 +15,8 @@ const BodyBrainGames = (description, taskFunc) => {
     if (answer === step[1]) {
       console.log('Correct!')
       mark += 1
-    } else {
+    } 
+    else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${step[1]}'.`)
       console.log(`Let's try again, ${playerName}!\n`)
       break
