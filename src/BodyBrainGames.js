@@ -23,6 +23,6 @@ const BodyBrainGames = (description, taskFunc) => {
   if (mark === 3) {
     console.log(`Congratulations, ${playerName}!`)
   }
-};
+}
 
 export default BodyBrainGames

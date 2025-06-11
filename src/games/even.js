@@ -1,12 +1,12 @@
 const BrainEven = () => {
-  const q = Math.round(Math.random() * 100);
-  let a = '';
+  const q = Math.round(Math.random() * 100)
+  let a = ''
   if (q % 2 === 0) {
-    a = 'yes';
+    a = 'yes'
   } else {
-    a = 'no';
+    a = 'no'
   }
 
-  return [q, a];
-};
-export default BrainEven;
+  return [q, a]
+}
+export default BrainEven
