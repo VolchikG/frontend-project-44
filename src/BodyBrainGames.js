@@ -21,6 +21,7 @@ const BodyBrainGames = (description, taskFunc) => {
       break
     }
   }
+
   if (mark === 3) {
     console.log(`Congratulations, ${playerName}!`)
   }
