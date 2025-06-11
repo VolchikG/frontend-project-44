@@ -1,6 +1,7 @@
 const BrainEven = () => {
   const q = Math.round(Math.random() * 100)
   let a = ''
+
   if (q % 2 === 0) {
     a = 'yes'
   } else {
@@ -9,4 +10,5 @@ const BrainEven = () => {
 
   return [q, a]
 }
+
 export default BrainEven

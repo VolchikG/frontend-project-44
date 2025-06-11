@@ -5,6 +5,7 @@ const BodyBrainGames = (description, taskFunc) => {
   const playerName = StartBG()
   console.log(description)
   let mark = 0
+  
   for (let i = 1; i <= 3; i += 1) {
     const step = taskFunc()
 
@@ -20,6 +21,7 @@ const BodyBrainGames = (description, taskFunc) => {
       break
     }
   }
+
   if (mark === 3) {
     console.log(`Congratulations, ${playerName}!`)
   }

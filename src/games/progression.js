@@ -12,6 +12,6 @@ const brainProgression = () => {
   progression[emptyIndex] = '..'
 
   return [progression.join(' '), answer]
-};
+}
 
 export default brainProgression
